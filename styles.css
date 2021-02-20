@@ -1,0 +1,107 @@
+html {
+    font-size: 100%;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Lobster+Two:wght@400;700&display=swap');
+  
+  body {
+      background-color: #F8F8F8;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+  }
+
+  header, main, footer {
+      display: flex;
+      flex-flow: row wrap;
+      width: 100%;
+      margin: auto;
+  }
+  
+  section {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+  }
+  
+  article {
+    margin: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    article {
+      width: 100%;
+    }
+  }
+
+  h1 {
+    font-family: 'Lobster Two', cursive;
+    font-size: 6rem;
+    margin: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+  }
+  
+  #lightBox {
+    background-color: #f3e5f5;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  }
+  
+  #lightBox:hover {
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  }
+  
+  .glow {
+    animation-name: ambientglow;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 5s;
+  }
+  
+  #switch {
+    font-size: inherit;
+    color: #6a1b9a;
+    margin: auto;
+    padding: 25px;
+    box-shadow: 0 3px 6px #dddddd, 0 3px 6px #eeeeee;
+    width: auto;
+  }
+
+  @media only screen and (max-width: 600px) {
+    #switch {
+        margin: 5%;
+      width: 90%;
+    }
+  }
+  
+  @keyframes ambientglow {
+    0% {
+      background-color: #e1bee7;
+    }
+    15% {
+      background-color: #ce93d8;
+    }
+    30% {
+      background-color: #ba68c8;
+    }
+    45% {
+      background-color: #ab47bc;
+    }
+    60% {
+      background-color: #9c27b0;
+    }
+    75% {
+      background-color: #8e24aa;
+    }
+    90% {
+      background-color: #7b1fa2;
+    }
+    100% {
+      background-color: #6a1b9a;
+    }
+  }
+  
