@@ -10,7 +10,7 @@ html {
   body {
     background-color: #F8F8F8;
     font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
+    font-size: 1rem;
   }
 
   header, main, footer {
@@ -36,7 +36,7 @@ html {
     }
 
     h1 {
-      font-size: 5rem;
+      font-size: 4rem imporant !important;
     }
   }
 
@@ -76,6 +76,7 @@ html {
     padding: 25px;
     box-shadow: 0 3px 6px #dddddd, 0 3px 6px #eeeeee;
     width: auto;
+    border-style: none;
   }
 
   @media only screen and (max-width: 600px) {
